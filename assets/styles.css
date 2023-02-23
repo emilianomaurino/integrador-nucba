@@ -127,7 +127,8 @@ header {
   border-width: thin;
   border-radius: 3px;
   padding: 3px;
-  box-shadow: 5px 3px 3px black
+  box-shadow: 5px 3px 3px black;
+  font-weight: 400;
 }
 
 .menu-login{
@@ -682,9 +683,12 @@ span {
   
   #Hero {
     background-image: url(./img/imagen-fondo3.jpg);
-    background-position:bottom;
-    background-size:cover;
-    
+    background-position: center;
+    background-size:calc();  
+  }
+   
+  .hero-txt h1{
+    text-align: center;
   }
 
   #contact-us{
