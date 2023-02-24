@@ -380,7 +380,7 @@ span {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-top: 15px;
+    padding: 15px;
     font-family: var(--font-lime);
     font-weight: 600;
     background-color: #CECCCC;
@@ -397,6 +397,41 @@ span {
 
 
 
+/*LOGIN*/
+
+
+
+/*REGISTER*/
+
+.logo-login-register{
+    height: 100%;
+    right: 80%;
+    position: absolute;
+    padding-top: 10px;
+  }
+#Hero h2{
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-hanken);
+  color: var(--backgroud-dos);
+  gap: 30px;
+  padding-top: 120px;
+  font-size: 30px;
+  filter: drop-shadow(10px 10px 4px rgb(85, 94, 97))
+}
+
+.form-conteiner{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+#Hero .button{
+  /* padding: 30px; */
+}
 
 
 
@@ -524,6 +559,7 @@ span {
   .login a:hover{
     color: black;
     box-shadow: none;
+    scale: 1.1;
   }
   .login a{
     opacity: 0;
@@ -623,6 +659,10 @@ span {
       animation: slide-up 0.5s ease-in,
       fade 0.6s forwards;
   }
+  .login a:hover{
+  scale: none;
+  transition: none;    
+  }
 
   .menu-label {
         display: flex;
@@ -673,7 +713,7 @@ span {
 
 @media (max-width: 576px){
   .login-list{
-    padding: 25px 5px;
+    padding: 25px 0px;
     left: 70%;
     width: 30%;
   }
