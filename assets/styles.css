@@ -397,11 +397,10 @@ span {
 
 
 
-/*LOGIN*/
 
 
 
-/*REGISTER*/
+/*REGISTER - LOGIN */
 
 .logo-login-register{
     height: 100%;
@@ -409,6 +408,8 @@ span {
     position: absolute;
     padding-top: 10px;
   }
+
+
 #Hero h2{
   display: flex;
   text-align: center;
@@ -429,10 +430,6 @@ span {
   justify-content: center;
   align-items: center;
 }
-#Hero .button{
-  /* padding: 30px; */
-}
-
 
 
 /* ANIMATION */
@@ -708,6 +705,13 @@ span {
 .cards-conteiner{
  flex-direction: column; 
 }
+.logo-login-register{
+  right: 60%;
+}
+.form-conteiner button{
+  width: 40%;
+}
+
 }
 
 
@@ -748,4 +752,5 @@ span {
   .button{
     padding: 15px;
   }
+
 }
