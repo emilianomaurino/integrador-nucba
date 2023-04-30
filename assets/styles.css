@@ -7,16 +7,10 @@
 :root{
   --background: #2d3136;
   --background-dos: #25282a;
-  --background-3: #2c2d36;
   --background-cards: #e0e8e7;
-  --background-grey: #666;
-  --background-green: #73a7a1;
-  --text-green: #64ccc9;
-  --text-blue:#336699;
-  --font-bad:"Bad Script", cursive;
   --font-lime: 'Limelight', cursive;
   --font-hanken: 'Hanken Grotesk', sans-serif;
-  --font-Monts: 'Montserrat Subrayada', sans-serif;
+  
 
 }
 
@@ -38,6 +32,7 @@
   bottom: 30px;
   right: 30px;
   height: 10vh;
+  z-index: 99999;
   }
 
 
@@ -110,7 +105,7 @@ header {
   }
 
   .login-list{
-    display: flex;
+     display: flex;    
   }
 
   .login a:hover {
@@ -721,17 +716,15 @@ header {
     width: 30%;
   }
   .login-list a{
-    margin-left: 35px;
-  }
-  
-  #Hero {
-    background-image: url(./img/imagen-fondo3.jpg);
-    background-position: center;
-    background-size:calc();  
+     margin-left: 15px;
   }
    
   .hero-txt h1{
     text-align: center;
+  }
+
+  .about-txt{
+    columns: 1;
   }
 
   #contact-us{
